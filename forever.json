@@ -1,0 +1,42 @@
+[
+  {
+    "uid": "posts",
+    "append": true,
+    "watch": true,
+    "script": "index.js",
+    "sourceDir": "./posts/",
+    "logFile": "./logs/posts.log"
+  },
+  {
+    "uid": "comments",
+    "append": true,
+    "watch": true,
+    "script": "index.js",
+    "sourceDir": "./comments/",
+    "logFile": "./logs/comments.log"
+  },
+  {
+    "uid": "query",
+    "append": true,
+    "watch": true,
+    "script": "index.js",
+    "sourceDir": "./query/",
+    "logFile": "./logs/query.log"
+  },
+  {
+    "uid": "moderation",
+    "append": true,
+    "watch": true,
+    "script": "index.js",
+    "sourceDir": "./moderation/",
+    "logFile": "./logs/moderation.log"
+  },
+  {
+    "uid": "eventbus",
+    "append": true,
+    "watch": true,
+    "script": "index.js",
+    "sourceDir": "./event-bus/",
+    "logFile": "./logs/eventbus.log"
+  }
+]
