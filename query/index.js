@@ -14,6 +14,8 @@ app.get('/posts', (req, res) => {
 })
 
 const handleEvent = (type, data) => {
+  console.log('Event Received: ', type)
+
   if (type === 'PostCreated') {
     const { id, title } = data
 
@@ -37,8 +39,6 @@ const handleEvent = (type, data) => {
 
     comment.status = status
     comment.content = content
-
-    console.log('Comment Updated: ', comment)
   }
 }
 
