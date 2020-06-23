@@ -4,39 +4,34 @@
     "append": true,
     "watch": true,
     "script": "index.js",
-    "sourceDir": "./posts/",
-    "logFile": "./logs/posts.log"
+    "sourceDir": "/home/robson/Dev/workspace/react-projects/udemy-microservices/blog-services/posts"
   },
   {
     "uid": "comments",
     "append": true,
     "watch": true,
     "script": "index.js",
-    "sourceDir": "./comments/",
-    "logFile": "./logs/comments.log"
+    "sourceDir": "/home/robson/Dev/workspace/react-projects/udemy-microservices/blog-services/comments/"
   },
   {
     "uid": "query",
     "append": true,
     "watch": true,
     "script": "index.js",
-    "sourceDir": "./query/",
-    "logFile": "./logs/query.log"
+    "sourceDir": "/home/robson/Dev/workspace/react-projects/udemy-microservices/blog-services/query/"
   },
   {
     "uid": "moderation",
     "append": true,
     "watch": true,
     "script": "index.js",
-    "sourceDir": "./moderation/",
-    "logFile": "./logs/moderation.log"
+    "sourceDir": "/home/robson/Dev/workspace/react-projects/udemy-microservices/blog-services/moderation/"
   },
   {
     "uid": "eventbus",
     "append": true,
     "watch": true,
     "script": "index.js",
-    "sourceDir": "./event-bus/",
-    "logFile": "./logs/eventbus.log"
+    "sourceDir": "/home/robson/Dev/workspace/react-projects/udemy-microservices/blog-services/event-bus/"
   }
 ]
